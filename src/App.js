@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import AntdButton from './antd/button';
+import AntdIcon from './antd/icon';
 import './App.css';
 import "antd/dist/antd.css";
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <AntdButton></AntdButton>
+        <AntdIcon></AntdIcon>
       </div>
     );
   }
